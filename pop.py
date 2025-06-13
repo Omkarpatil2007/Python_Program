@@ -1,0 +1,13 @@
+list=["a","b","c"]
+list.append(4)
+print(list)
+list.extend("d")
+print(list)
+x=list.index(4)
+print(x)
+list.insert(3,54)
+print(list)
+list.pop(3)
+print(list)
+list.remove(4)
+print(list)
